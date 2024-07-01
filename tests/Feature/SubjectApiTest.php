@@ -17,9 +17,9 @@ class SubjectApiTest extends TestCase
         $subjectData = [
             'subject_code' => 'T3B-123',
             'name' => 'Application Lifecycle Management',
-            'description' => 'Lorem ipsum dolor sit amet.',
-            'instructor' => 'Mr. John Doe',
-            'schedule' => 'MW 7AM-12PM',
+            'description' => 'API-Management',
+            'instructor' => 'Mr. Cy Alonzo',
+            'schedule' => 'Thurs 7:30PM-9PM',
             'prelims' => 2.75,
             'midterms' => 2.0,
             'pre_finals' => 1.75,

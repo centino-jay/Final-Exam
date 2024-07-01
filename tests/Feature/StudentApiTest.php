@@ -12,14 +12,14 @@ class StudentApiTest extends TestCase
     public function test_can_create_student()
     {
         $studentData = [
-            'firstname' => 'John',
-            'lastname' => 'Doe',
-            'birthdate' => '2001-01-01',
+            'firstname' => 'Alden jay',
+            'lastname' => 'Centino',
+            'birthdate' => '1999-10-27',
             'sex' => 'MALE',
             'address' => 'Tacloban',
             'year' => 3,
             'course' => 'BSIT',
-            'section' => 'B',
+            'section' => 'A',
         ];
 
         $response = $this->postJson('/api/students', $studentData);
